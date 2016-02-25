@@ -1,68 +1,41 @@
-[![Build Status](https://img.shields.io/travis/silvestreh/atom-material-ui.svg?style=flat-square)](https://travis-ci.org/silvestreh/atom-material-ui)
-[![apm](https://img.shields.io/apm/dm/atom-material-ui.svg?style=flat-square)](https://atom.io/packages/atom-material-ui)
-[![apm](https://img.shields.io/apm/v/atom-material-ui.svg?style=flat-square)](https://atom.io/packages/atom-material-ui)
-[![apm](https://img.shields.io/apm/l/atom-material-ui.svg?style=flat-square)]()
-
-<a href="https://pledgie.com/campaigns/29552"><img alt="Click here to lend your support to: Atom Material Design Theme and make a donation at pledgie.com !" src="https://pledgie.com/campaigns/29552.png?skin_name=chrome" border="0"></a>
-
 ![](http://i.imgur.com/7C2H2mw.png)
 ---
 
-A dynamic UI theme for Atom that (kinda) follows Google's Material Design Guidelines. Best with [Atom Material Syntax](https://github.com/silvestreh/atom-material-syntax).
+A dynamic UI theme for Atom that (kinda) follows Google's Material Design Guidelines. Best with [Atom Material Syntax](https://github.com/silvestreh/atom-material-syntax). (Mostly) works with other dark syntax themes as it uses syntax colors for the UI. Light themes work too, but might not look as nice.
 
 Inspired by Mattia Astorino's [SublimeText theme](https://github.com/equinusocio/material-theme).
 
-# Installation
+## Installation
 
 Fire up a console and type:
 
-```shell
-apm install atom-material-ui
-```
+`$ apm install atom-material-ui atom-material-syntax atom-material-syntax-light`
 
 Or, inside Atom's settings select Install and then search for this package.
 
-# Configuration
+## Configuration
 
 Atom Material UI supports different accent colors. To change it, go to Settings > Themes and click the cog icon next to the theme selector.
 
-![](http://i.imgur.com/pf3oiZr.png)
+![](http://i.imgur.com/JB2iA5m.png)
 
-You'll find the color picker there.
+You'll find the color dropdown there.
 
-# Screenshots
+## Screenshot
 
-Here's the obligatory screenshot.
+Here's the obligatory screenshot. The toolbar on the left side is a package named [Tool-bar-main](https://atom.io/packages/tool-bar-main).
 
-### With [Atom Material Syntax](https://atom.io/packages/atom-material-syntax)
+![](http://i.imgur.com/2jNgkR9.png)
 
-```shell
-apm install atom-material-syntax
-```
+Animated tabs! (these animations can be disabled from the theme's settings)
 
-![](http://i.imgur.com/ExPYmJY.png)
+![](http://i.imgur.com/lUR3uRv.gif)
 
-### With [Light syntax](https://atom.io/packages/atom-material-syntax-light) theme variant
+## Light syntax theme variant
 
-```shell
-apm install atom-material-syntax-light
-```
+![](http://i.imgur.com/HkCKXxX.png)
 
-![](http://i.imgur.com/q1o78sX.png)
-
-### With [Dark syntax](https://atom.io/packages/atom-material-syntax-dark) theme variant
-
-```shell
-apm install atom-material-syntax-dark
-```
-
-![](http://i.imgur.com/orhIvwS.png)
-
-# Contributing
-
-Please check the [CONTRIBUTING.md](https://github.com/silvestreh/atom-material-ui/blob/master/CONTRIBUTING.md) file.
-
-# Extra
+## Extra
 
 ![](http://i.imgur.com/0tHORB1.png)
 

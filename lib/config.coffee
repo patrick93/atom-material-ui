@@ -32,10 +32,10 @@ module.exports =
             root.classList.remove('yellow')
             root.classList.add(currentAccentColor.toLowerCase())
 
-        atom.config.onDidChange 'atom-material-ui.ui.accentColor', ->
-            setAccentColor(atom.config.get('atom-material-ui.ui.accentColor'))
+        atom.config.onDidChange 'my-material-ui.ui.accentColor', ->
+            setAccentColor(atom.config.get('my-material-ui.ui.accentColor'))
 
-        setAccentColor(atom.config.get('atom-material-ui.ui.accentColor'))
+        setAccentColor(atom.config.get('my-material-ui.ui.accentColor'))
 
         # Roboto Mono Font
 
@@ -45,10 +45,10 @@ module.exports =
             else
                 root.classList.remove('roboto-mono')
 
-        atom.config.onDidChange 'atom-material-ui.fonts.useRoboto', ->
-            setRobotoFont(atom.config.get('atom-material-ui.fonts.useRoboto'))
+        atom.config.onDidChange 'my-material-ui.fonts.useRoboto', ->
+            setRobotoFont(atom.config.get('my-material-ui.fonts.useRoboto'))
 
-        setRobotoFont(atom.config.get('atom-material-ui.fonts.useRoboto'))
+        setRobotoFont(atom.config.get('my-material-ui.fonts.useRoboto'))
 
         # Roboto font for UI
 
@@ -58,10 +58,10 @@ module.exports =
             else
                 root.classList.remove('roboto')
 
-        atom.config.onDidChange 'atom-material-ui.fonts.useRobotoInUI', ->
-            setRobotoUIFont(atom.config.get('atom-material-ui.fonts.useRobotoInUI'))
+        atom.config.onDidChange 'my-material-ui.fonts.useRobotoInUI', ->
+            setRobotoUIFont(atom.config.get('my-material-ui.fonts.useRobotoInUI'))
 
-        setRobotoUIFont(atom.config.get('atom-material-ui.fonts.useRobotoInUI'))
+        setRobotoUIFont(atom.config.get('my-material-ui.fonts.useRobotoInUI'))
 
         # Slim Scrollbars
 
@@ -71,10 +71,10 @@ module.exports =
             else
                 root.classList.remove('slim-scrollbar')
 
-        atom.config.onDidChange 'atom-material-ui.ui.slimScrollbar', ->
-            setSlimScrollbars(atom.config.get('atom-material-ui.ui.slimScrollbar'))
+        atom.config.onDidChange 'my-material-ui.ui.slimScrollbar', ->
+            setSlimScrollbars(atom.config.get('my-material-ui.ui.slimScrollbar'))
 
-        setSlimScrollbars(atom.config.get('atom-material-ui.ui.slimScrollbar'))
+        setSlimScrollbars(atom.config.get('my-material-ui.ui.slimScrollbar'))
 
         # Disable Animations
 
@@ -84,10 +84,10 @@ module.exports =
             else
                 root.classList.remove('no-animations')
 
-        atom.config.onDidChange 'atom-material-ui.ui.disableAnimations', ->
-            setAnimationStatus(atom.config.get('atom-material-ui.ui.disableAnimations'))
+        atom.config.onDidChange 'my-material-ui.ui.disableAnimations', ->
+            setAnimationStatus(atom.config.get('my-material-ui.ui.disableAnimations'))
 
-        setAnimationStatus(atom.config.get('atom-material-ui.ui.disableAnimations'))
+        setAnimationStatus(atom.config.get('my-material-ui.ui.disableAnimations'))
 
         # Contrasting Panels
 
@@ -97,10 +97,10 @@ module.exports =
             else
                 root.classList.remove('panel-contrast')
 
-        atom.config.onDidChange 'atom-material-ui.panels.panelContrast', ->
-            setPanelContrast(atom.config.get('atom-material-ui.panels.panelContrast'))
+        atom.config.onDidChange 'my-material-ui.panels.panelContrast', ->
+            setPanelContrast(atom.config.get('my-material-ui.panels.panelContrast'))
 
-        setPanelContrast(atom.config.get('atom-material-ui.panels.panelContrast'))
+        setPanelContrast(atom.config.get('my-material-ui.panels.panelContrast'))
 
         # Panel Depth (a.k.a. shadows)
 
@@ -110,10 +110,10 @@ module.exports =
             else
                 root.classList.remove('panel-depth')
 
-        atom.config.onDidChange 'atom-material-ui.panels.depth', ->
-            setDepth(atom.config.get('atom-material-ui.panels.depth'))
+        atom.config.onDidChange 'my-material-ui.panels.depth', ->
+            setDepth(atom.config.get('my-material-ui.panels.depth'))
 
-        setDepth(atom.config.get('atom-material-ui.panels.depth'))
+        setDepth(atom.config.get('my-material-ui.panels.depth'))
 
         # Dark Overlay
 
@@ -123,10 +123,10 @@ module.exports =
             else
                 root.classList.remove('alt-cmd-palette')
 
-        atom.config.onDidChange 'atom-material-ui.panels.altCmdPalette', ->
-            setAltCmdPalette(atom.config.get('atom-material-ui.panels.altCmdPalette'))
+        atom.config.onDidChange 'my-material-ui.panels.altCmdPalette', ->
+            setAltCmdPalette(atom.config.get('my-material-ui.panels.altCmdPalette'))
 
-        setAltCmdPalette(atom.config.get('atom-material-ui.panels.altCmdPalette'))
+        setAltCmdPalette(atom.config.get('my-material-ui.panels.altCmdPalette'))
 
         # Tabs Size
 
@@ -136,10 +136,10 @@ module.exports =
             root.classList.remove('tab-size-big')
             root.classList.add('tab-size-' + currentTabSize.toLowerCase())
 
-        atom.config.onDidChange 'atom-material-ui.tabs.tabSize', ->
-            setTabSize(atom.config.get('atom-material-ui.tabs.tabSize'))
+        atom.config.onDidChange 'my-material-ui.tabs.tabSize', ->
+            setTabSize(atom.config.get('my-material-ui.tabs.tabSize'))
 
-        setTabSize(atom.config.get('atom-material-ui.tabs.tabSize'))
+        setTabSize(atom.config.get('my-material-ui.tabs.tabSize'))
 
         # Tree-view Size
 
@@ -149,10 +149,10 @@ module.exports =
             else
                 root.classList.remove('compact-tree-view')
 
-        atom.config.onDidChange 'atom-material-ui.treeView.compactTreeView', ->
-            setCompactTreeView(atom.config.get('atom-material-ui.treeView.compactTreeView'))
+        atom.config.onDidChange 'my-material-ui.treeView.compactTreeView', ->
+            setCompactTreeView(atom.config.get('my-material-ui.treeView.compactTreeView'))
 
-        setCompactTreeView(atom.config.get('atom-material-ui.treeView.compactTreeView'))
+        setCompactTreeView(atom.config.get('my-material-ui.treeView.compactTreeView'))
 
         # UI Font Size
 
@@ -163,10 +163,10 @@ module.exports =
             root.classList.remove('font-size-huge')
             root.classList.add('font-size-' + currentFontSize.toLowerCase())
 
-        atom.config.onDidChange 'atom-material-ui.fonts.fontSize', ->
-            setFontSize(atom.config.get('atom-material-ui.fonts.fontSize'))
+        atom.config.onDidChange 'my-material-ui.fonts.fontSize', ->
+            setFontSize(atom.config.get('my-material-ui.fonts.fontSize'))
 
-        setFontSize(atom.config.get('atom-material-ui.fonts.fontSize'))
+        setFontSize(atom.config.get('my-material-ui.fonts.fontSize'))
 
         # Tab Icons
 
@@ -178,10 +178,10 @@ module.exports =
           else if option == 'Show on all tabs'
               root.classList.add('tab-icons-all')
 
-        atom.config.onDidChange 'atom-material-ui.tabs.showTabIcons', ->
-            setShowTabIcons(atom.config.get('atom-material-ui.tabs.showTabIcons'))
+        atom.config.onDidChange 'my-material-ui.tabs.showTabIcons', ->
+            setShowTabIcons(atom.config.get('my-material-ui.tabs.showTabIcons'))
 
-        setShowTabIcons(atom.config.get('atom-material-ui.tabs.showTabIcons'))
+        setShowTabIcons(atom.config.get('my-material-ui.tabs.showTabIcons'))
 
         # Tab Accent Ripple
 
@@ -191,10 +191,10 @@ module.exports =
             else
                 root.classList.remove('ripple-accent-color')
 
-        atom.config.onDidChange 'atom-material-ui.tabs.rippleAccentColor', ->
-            setRippleAccentColor(atom.config.get('atom-material-ui.tabs.rippleAccentColor'))
+        atom.config.onDidChange 'my-material-ui.tabs.rippleAccentColor', ->
+            setRippleAccentColor(atom.config.get('my-material-ui.tabs.rippleAccentColor'))
 
-        setRippleAccentColor(atom.config.get('atom-material-ui.tabs.rippleAccentColor'))
+        setRippleAccentColor(atom.config.get('my-material-ui.tabs.rippleAccentColor'))
 
         # Tab min-width
 
@@ -204,7 +204,7 @@ module.exports =
             else
                 root.classList.remove('tab-min-width')
 
-        atom.config.onDidChange 'atom-material-ui.tabs.tabMinWidth', ->
-            setTabMinWidth(atom.config.get('atom-material-ui.tabs.tabMinWidth'))
+        atom.config.onDidChange 'my-material-ui.tabs.tabMinWidth', ->
+            setTabMinWidth(atom.config.get('my-material-ui.tabs.tabMinWidth'))
 
-        setTabMinWidth(atom.config.get('atom-material-ui.tabs.tabMinWidth'))
+        setTabMinWidth(atom.config.get('my-material-ui.tabs.tabMinWidth'))

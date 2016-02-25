@@ -9,7 +9,7 @@ Inspired by Mattia Astorino's [SublimeText theme](https://github.com/equinusocio
 
 Fire up a console and type:
 
-`$ apm install atom-material-ui atom-material-syntax atom-material-syntax-light`
+`$ apm install my-material-ui atom-material-syntax atom-material-syntax-light`
 
 Or, inside Atom's settings select Install and then search for this package.
 

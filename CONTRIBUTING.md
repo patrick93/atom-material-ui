@@ -8,9 +8,9 @@ Some of this content comes from Atom's Contributing guidelines. Please, don't be
 If you want to get your hands dirty and contribute with some code, you should fork this repository, make your changes, and then send in a pull request.
 
 ```shell
-apm uninstall atom-material-ui #if you had it installed
+apm uninstall my-material-ui #if you had it installed
 git clone <your_forked_repo>
-cd atom-material-ui/
+cd my-material-ui/
 apm link && apm install
 atom -d .
 ```
@@ -64,8 +64,8 @@ In a nutshell, we're following [Airbnb's JavaScript styleguide](https://github.c
 If you'd like to test new features and hunt bugs, follow these simple steps to get the latest (development) version.
 
 ```shell
-git clone git@github.com:silvestreh/atom-material-ui.git
-cd atom-material-ui/
+git clone git@github.com:silvestreh/my-material-ui.git
+cd my-material-ui/
 apm link -d && apm install
 ```
 

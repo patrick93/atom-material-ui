@@ -48,10 +48,10 @@
     background-color: @app-background-color;
 }
 .select-arrow(@color) when (lightness(@color) > 50%) {
-    background: transparent url('atom://atom-material-ui/assets/arrow-drop-down.svg') no-repeat;
+    background: transparent url('atom://my-material-ui/assets/arrow-drop-down.svg') no-repeat;
 }
 .select-arrow(@color) when (lightness(@color) < 50%) {
-    background: transparent url('atom://atom-material-ui/assets/arrow-drop-down-white.svg') no-repeat;
+    background: transparent url('atom://my-material-ui/assets/arrow-drop-down-white.svg') no-repeat;
 }
 .depth(@color) when (lightness(@color) >= 60%) {
     box-shadow: inset 0 3px 4px rgba(0,0,0,0.05), inset 3px 0 4px rgba(0,0,0,0.05);
